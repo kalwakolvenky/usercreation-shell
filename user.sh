@@ -17,7 +17,7 @@ while [ TRUE ]; do
         	PASSWORD=India${ALPHACHAR}${SPECCHAR}$RANDOM
         	chown $USER1:$USER1 /home/$USER1
         	echo "$USER1:$PASSWORD" | sudo chpasswd
-        	echo "User $USER1 and password is $PASSWORD sucessfully created..!!"
+        	echo "User $USER1 and password is $PASSWORD sucessfully created and change as you like..!!"
         	passwd -e $USER1
     	fi
 	fi
